@@ -1,1 +1,2 @@
 dist/Microscopio_Color*.jar /usr/share/imagej/plugins/
+metainfo/* /usr/share/metainfo/
