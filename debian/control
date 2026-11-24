@@ -1,0 +1,23 @@
+Source: microscope-viewer
+Section: science
+Priority: optional
+Maintainer: Rafael Cantillana — Robot-Edu.es
+Uploaders: juanma1980 <juanma1980@protonmail.com>
+Build-Depends: debhelper-compat (= 13), libtoon-dev, libcvd-dev,
+ libgvars3-dev, libblas-dev | libatlas-base-dev, liblapack-dev |
+ libatlas-base-dev, libtoon-dev, libtoontag-dev, default-jdk-headless,
+ libij-java, libf2c2-dev
+Standards-Version: 4.5.1
+Homepage: https://github.com/Robot-Edu1/plugin-fiji-microscope-viewer
+Rules-Requires-Root: no
+
+Package: microscope-viewer-imagej
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, default-jre (>= 2:1.8) | java8-runtime, imagej
+Description: Plugin de captura para microscopios USB en Linux.
+ El proyecto abre una imagen de color a **1280×720**, con botones para zoom,
+ fotografía JPEG y vídeo MP4. La salida se guarda con fecha y hora en la
+ carpeta de imágenes de la cuenta que ejecuta Fiji, dentro de `Microscopio`.
+ El programa no interpola imágenes para simular una resolución mayor.
+ .
+ This package contains the ImageJ plugin.
