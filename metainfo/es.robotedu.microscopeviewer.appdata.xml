@@ -1,0 +1,43 @@
+<?xml version='1.0' encoding='utf-8'?>
+<component type="addon">
+<metadata_license>CC0-1.0</metadata_license>
+<id>es.robotedu.imagej_microscope_viewer</id>
+<extends>imagej.desktop</extends>
+<name>Microscope Viewer</name>
+<name xml:lang="es">Visor de microscopio</name>
+<name xml:lang="ca">Visor de microscopi</name>
+<summary>ImageJ addon for image capture from USB microscopes</summary>
+<summary xml:lang="es">Plugin de imageJ para captura de imágenes de microscopios USB</summary>
+<summary xml:lang="ca">Plugin de imageJ per a captura d'imatges de microscopis USB</summary>
+<description>
+<p>This addon opens a color image to 1280 × 720, with buttons for zoom, JPEG photography and MP4 video. The output is saved with date and time in the user's image folder, inside 'Microscopio'. The program does not interpolate images to simulate a larger resolution.</p>
+<p xml:lang="es">Este plugin abre una imagen de color a 1280×720, con botones para zoom, fotografía JPEG y vídeo MP4. La salida se guarda con fecha y hora en el directorio de imágenes del usuario, dentro de 'Microscopio'. El programa no interpola imágenes para simular una resolución mayor.</p>
+<p xml:lang="ca">Aquest plugin obri una imatge de color a 1280×720, amb botons per a zoom, fotografia JPEG i vídeo MP4. L'eixida es desa amb data i hora al directori d'imatges de l'usuari, dins de 'Microscopio'. El programa no interpola imatges per a simular una resolució major.</p>
+</description>
+<categories>
+<category>Education</category>
+<category>Science</category>
+<category>Biology</category>
+<category>ImageProcessing</category>
+<category>Graphics</category>
+</categories>
+<icon type="stock">imagej_imagej1</icon>
+<keywords>
+<keyword>microscope</keyword>
+<keyword>microscopy</keyword>
+<keyword>analysis</keyword>
+<keyword>fiji</keyword>
+<keyword>robotedu</keyword>
+<keyword xml:lang="es">microscopio</keyword>
+<keyword xml:lang="es">analisis</keyword>
+<keyword xml:lang="es">análisis</keyword>
+<keyword xml:lang="ca">microscopi</keyword>
+<keyword xml:lang="ca">analisi</keyword>
+<keyword xml:lang="ca">anàlisi</keyword>
+</keywords>
+<releases>
+  <release date="2026-11-23" version="1.1.3"/>
+</releases>
+<project_license>MIT</project_license>
+<url type="homepage">https://robot-edu.es</url>
+</component>
